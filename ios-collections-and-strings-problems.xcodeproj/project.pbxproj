@@ -10,6 +10,7 @@
 		0789857865B4D24D0B32EFC5 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B523025CE7B6687D214CB7 /* FISAppDelegate.m */; };
 		28A9785A03C375671CF3096F /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = 76E6BE0B04E13C96AE18D7E6 /* LaunchScreen.xib */; };
 		6A35CDA73498A5205687F20A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E91A786DA2218063361B713 /* Foundation.framework */; };
+		7881D4C91D0B059A00658D2D /* FISummer16.m in Sources */ = {isa = PBXBuildFile; fileRef = 7881D4C81D0B059A00658D2D /* FISummer16.m */; };
 		7CCEBA68207A8F8CA0D3025C /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5F3D872064AC86D1A5CDD9 /* libPods-unit_tests.a */; };
 		915F8BBBB731E6D8178E0308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE580214B86D58CA0255F54 /* main.m */; };
 		BC4E8D02A97AE314E3C29F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A0865F970058F19CBDE0DE7 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 		6A0865F970058F19CBDE0DE7 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6C7C3828E89DF44A38A2E07A /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
 		76E6BE0B04E13C96AE18D7E6 /* LaunchScreen.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		7881D4C71D0B059A00658D2D /* FISummer16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISummer16.h; sourceTree = "<group>"; };
+		7881D4C81D0B059A00658D2D /* FISummer16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISummer16.m; sourceTree = "<group>"; };
 		7A563C472D9C431ECC6DAA3C /* ios-collections-and-strings-problems-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-collections-and-strings-problems-Prefix.pch"; sourceTree = "<group>"; };
 		8C8BA4BDFD1F5D586FA9E961 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
 		904485A0263480492C985504 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +136,8 @@
 			children = (
 				D91A685363B9037BFBDD5F6F /* FISAppDelegate.h */,
 				C2B523025CE7B6687D214CB7 /* FISAppDelegate.m */,
+				7881D4C71D0B059A00658D2D /* FISummer16.h */,
+				7881D4C81D0B059A00658D2D /* FISummer16.m */,
 				6A0865F970058F19CBDE0DE7 /* Main.storyboard */,
 				BFA97D4562F6E0C667972CF7 /* Resources */,
 			);
@@ -304,6 +309,7 @@
 			files = (
 				0789857865B4D24D0B32EFC5 /* FISAppDelegate.m in Sources */,
 				28A9785A03C375671CF3096F /* LaunchScreen.xib in Sources */,
+				7881D4C91D0B059A00658D2D /* FISummer16.m in Sources */,
 				915F8BBBB731E6D8178E0308 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

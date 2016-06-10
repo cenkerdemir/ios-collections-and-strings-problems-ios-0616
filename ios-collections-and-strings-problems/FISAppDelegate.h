@@ -6,10 +6,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-/**
- 
- * Declare your methods here!
- 
- */
+-(void)printWordsInAFrame:(NSArray *)wordsForTheFrame;
+-(NSString *)addHeaderFooterWithSize:(NSUInteger)size;
 
 @end
